@@ -1,3 +1,6 @@
+body {
+    background-color: #F2D5BB;
+}
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -14,6 +17,7 @@ nav {
     padding: 1%;
     display: inline-block;
     text-align: center;
+    background-color: #69C4B2;
 
 }
 
@@ -42,10 +46,12 @@ li {
 }
 
 footer {
-    background-color: #ffffff;
+    background-color: #69C4B2;
     margin-top: 100px;
 }
 
-.divider {
-    color: #262626;
+hr.rounded {
+    margin-top: 24px;
+    border-top: 10px solid #262626;
+    border-radius: 5px;
 }
