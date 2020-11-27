@@ -55,3 +55,47 @@ hr.rounded {
     border-top: 10px solid #262626;
     border-radius: 5px;
 }
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 33% 33% 33%;
+    margin: 25px 25px;
+    padding: 20px;
+
+}
+
+#logo1 {
+    height: 50%;
+    align-items: center;
+
+}
+
+#logo2 {
+    height: 50%;
+    align-items: center;
+
+}
+#logo3 {
+    height: 50%;
+    align-items: center;
+
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20% 15% 5% 15% 5% 15% 10% auto;
+    grid-template-areas:
+        "logo1 logo2 logo3"
+        "title1 title2 title3"
+        "challenge challenge challenge"
+        "chalText1 chalText2 chalText3"
+        "outcome outcome outcome"
+        "outText1 outText2 outText3"
+        "button1 button2 button3"
+}
+
+
+
+
