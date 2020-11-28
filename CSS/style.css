@@ -5,6 +5,26 @@ body {
     display: inline-block;
     vertical-align: top;
 }
+h1 {
+    font-family: Rockwell, Perpetua, serif;
+    font-size: 36pt;
+    
+}
+
+h3 {
+    font-family: Perpetua, Rockwell, serif;
+    font-size: 24pt;
+}
+
+h4 {
+    font-family: Perpetua, Rockwell, serif;
+    font-size: 18pt;
+}
+
+p {
+    font-family: Rockwell, Perpetua, serif;
+    font-size: 12pt;
+}
 
 .logo {
     width: 30%;
@@ -16,8 +36,10 @@ body {
 nav {
     padding: 1%;
     display: inline-block;
-    text-align: center;
-    background-color: #69C4B2;
+    background-color: #4AAAD2;
+    font-family: Rockwell, Perpetua, serif;
+    font-size: 16pt;
+    margin-top: 25px;
 
 }
 
@@ -38,16 +60,25 @@ li {
 .heroImg {
     height: 600px;
     padding: 25px;
+    display: inline-block;
 }
 
 .content {
-    width: 1000px;
     margin: 0 auto;
 }
 
+button {
+    font-family: Rockwell, Perpetua, serif;
+    font-size: 16pt;
+    background-color: #E47526;
+}
 footer {
-    background-color: #69C4B2;
-    margin-top: 100px;
+    padding: 1%;
+    display: inline-block;
+    background-color: #4AAAD2;
+    font-family: Rockwell, Perpetua, serif;
+    font-size: 16pt;
+    margin-top: 25px;
 }
 
 hr.rounded {
