@@ -96,6 +96,43 @@ hr.rounded {
         "button1 button2 button3"
 }
 
+@media screen and (max-width: 600) {
+    .flexContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+
+    .workGrid {
+        display: grid;
+        grid-template-rows: 20% 15% 5% 15% 5% 15% 10% auto;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "logo1"
+        "title1"
+        "challenge"
+        "chalText1"
+        "outcome"
+        "outText1"
+        "button1"
+        "logo2"
+        "title2"
+        "challenge"
+        "chalText2"
+        "outcome"
+        "outText2"
+        "button2"
+        "logo3"
+        "title3"
+        "challenge"
+        "chalText3"
+        "outcome"
+        "outText3"
+        "button3"
+        ;
+    }
+
+}
 
 
 
