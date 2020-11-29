@@ -116,7 +116,7 @@ hr.rounded {
 .workGrid {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 20% 15% 5% 15% 5% 15% 10% auto;
+    grid-template-rows: 20% 15% 5% 15% 5% 15% 10%;
     grid-template-areas:
         "logo1 logo2 logo3"
         "title1 title2 title3"
@@ -127,7 +127,7 @@ hr.rounded {
         "button1 button2 button3"
 }
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 768px) {
     .flexContainer {
     display: flex;
     flex-direction: column;
@@ -135,9 +135,8 @@ hr.rounded {
     }
 
     .workGrid {
-        display: grid;
-        grid-template-rows: 20% 15% 5% 15% 5% 15% 10% auto;
-        grid-template-columns: 100%;
+        grid-template-rows: 20% 15% 5% 15% 5% 15% 10% 20% 15% 5% 15% 5% 15% 10% 20% 15% 5% 15% 5% 15% 10%;
+        grid-template-columns: 1fr;
         grid-template-areas:
         "logo1"
         "title1"
@@ -164,6 +163,3 @@ hr.rounded {
     }
 
 }
-
-
-
